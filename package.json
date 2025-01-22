@@ -1,0 +1,14 @@
+{
+  "name": "node-express-api",
+  "version": "1.0.0",
+  "description": "A Node.js Express API for controlling lights and filters via bash commands.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "author": "",
+  "license": "ISC"
+}
