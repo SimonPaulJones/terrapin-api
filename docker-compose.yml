@@ -1,0 +1,10 @@
+# filepath: /node-express-api/docker-compose.yml
+version: '3.8'
+
+services:
+  node-express-api:
+    image: node-express-api
+    build: .
+    ports:
+      - "8080:8080"
+    restart: unless-stopped
